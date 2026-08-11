@@ -1,0 +1,14 @@
+[project]
+name = "local-currency-defi-risk-lab"
+version = "0.1.0"
+description = "Interactive research models for local-currency DeFi risk."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers --disable-warnings"
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
