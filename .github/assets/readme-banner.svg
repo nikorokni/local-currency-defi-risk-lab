@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Local-Currency DeFi Risk Lab</title>
+  <desc id="desc">A dark research dashboard banner connecting currencies, collateral, liquidity, and oracle signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111F"/><stop offset=".52" stop-color="#102A4C"/><stop offset="1" stop-color="#30185A"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#22D3EE" stop-opacity=".25"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#DBEAFE" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#bg)"/><rect width="1200" height="340" rx="28" fill="url(#grid)"/>
+  <circle cx="180" cy="170" r="160" fill="url(#halo)"/>
+  <g transform="translate(55 58)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="110" r="88" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M22 110H198M110 22C76 58 76 162 110 198M110 22C144 58 144 162 110 198M35 70C76 93 144 93 185 70M35 150C76 127 144 127 185 150" stroke="#67E8F9" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M53 142L84 113L110 128L143 76L174 99" stroke="#FBBF24" stroke-width="5"/>
+    <g fill="#FBBF24" stroke="#0F172A" stroke-width="3"><circle cx="53" cy="142" r="7"/><circle cx="110" cy="128" r="7"/><circle cx="143" cy="76" r="7"/><circle cx="174" cy="99" r="7"/></g>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="335" y="99" fill="#67E8F9" font-size="17" font-weight="700" letter-spacing="4">INTERACTIVE RESEARCH TOOLKIT · PYTHON + STREAMLIT</text>
+    <text x="331" y="164" fill="#FFFFFF" font-size="50" font-weight="800">LOCAL-CURRENCY DeFi</text>
+    <text x="331" y="220" fill="#FFFFFF" font-size="50" font-weight="800">RISK LAB</text>
+    <rect x="335" y="240" width="170" height="4" rx="2" fill="url(#accent)"/>
+    <text x="335" y="283" fill="#C9D8EA" font-size="20">Debt erosion · Solvency · Peg stability · Oracle governance</text>
+  </g>
+  <path d="M1200 75H1080L1040 115H985M1200 280H1090L1045 235H980" fill="none" stroke="#A78BFA" stroke-width="2" opacity=".42"/>
+  <g fill="#22D3EE"><circle cx="1080" cy="75" r="5"/><circle cx="1090" cy="280" r="5"/></g>
+  <rect x="2" y="2" width="1196" height="336" rx="26" fill="none" stroke="#67E8F9" stroke-opacity=".2" stroke-width="2"/>
+</svg>
