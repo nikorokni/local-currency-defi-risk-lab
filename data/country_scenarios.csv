@@ -1,0 +1,6 @@
+country,fx_local_per_usd,depreciation_pct,loan_rate_pct,notes
+Argentina,1350,120,75,Illustrative high-inflation stress scenario
+Turkey,41,35,45,Illustrative persistent-depreciation scenario
+Nigeria,1650,30,28,Illustrative FX-fragmentation scenario
+Venezuela,145,180,60,Illustrative extreme-depreciation scenario
+Custom baseline,1000,25,20,Neutral editable starting point
