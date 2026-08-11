@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite the repository and the relevant companion paper."
+title: "Local-Currency DeFi Risk Lab"
+type: software
+version: 0.1.0
+authors:
+  - family-names: "Rokni Lamouki"
+    given-names: "Niko"
+repository-code: "https://github.com/nikorokni/local-currency-defi-risk-lab"
